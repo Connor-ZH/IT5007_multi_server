@@ -7,6 +7,7 @@ Please make sure your container have exported two ports, namely 3000 and 5000
 - cd ../api/
 - npm install
 ## Second step: Initializing the Database
+- make sure your original issuetracker database is dropped before running the next init command
 - mongo issuetracker scripts/init.mongo.js
 ## Third step: Try the mongoDB CRUD
 - node scripts/trymongo.js
